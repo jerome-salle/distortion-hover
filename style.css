@@ -28,7 +28,7 @@ h2 {
 .wrapper {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 48px;
   align-items: center;
 }
@@ -40,12 +40,13 @@ h2 {
 }
 
 .canvas-wrapper:nth-child(2) {
-  grid-column: span 3;
+  grid-column: span 2;
   height: 70vh;
 }
 
 .card img {
   display: none; 
+  object-fit: cover;
 }
 
 canvas {
